@@ -45,7 +45,7 @@ int main() {
     int start = 3, target = 5;
     int langkah = bfs_langkah_minimum(n, adj, start, target);
 
-    if (langkah != -1) {
+    if (langkah != 0) {
         printf("%d\n", start, target, langkah);
     } else {
         printf("Tidak ada jalur dari %d ke %d\n", start, target);
